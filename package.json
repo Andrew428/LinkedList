@@ -1,7 +1,7 @@
 {
-  "name": "zerocater",
+  "name": "LinkedList",
   "version": "1.0.0",
-  "description": "ZeroCater Frontend Engineering Screener Test",
+  "description": "CS Concepts - Linked List",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
