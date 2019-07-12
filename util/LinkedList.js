@@ -135,15 +135,18 @@ export default class LinkedList {
 
     n1 = this.head;
     n2 = n1.next;
+    // collect inital values of node
     nodes[n1.value] = true;
 
     while (n2) {
-        var value = n2.value;
-        nodes[value];
+        let value = n2.value;
+        // if value if node is already in the collection then its a dup and need to be removed        
         if (nodes[value]) {
             n1.next = n2.next;
             this.length--;
-        } else {
+        }
+        // collect value of nodes
+        else {          
             nodes[value] = true;
             n1 = n2;
         }
