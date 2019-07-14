@@ -5,3 +5,8 @@ A Linked Lists is a series of nodes where one node is linked directly to the nex
 
 In both cases for singly linked list and doubly linked list the Big O is O(n). Since the Big O for both `singly` and `doubly linked list` are `O(n)` it's worth setting up a doubly linked list as it give you the extra option of linking back to the previous node.
 
+The difference between a Linked List and an Array is that an array is index while a linked list is not. 
+
+Advantages: Insert and Delete can be really quick.
+
+Disadvantage:  Getting to the nth node is slow. 
